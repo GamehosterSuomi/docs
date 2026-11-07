@@ -1,5 +1,5 @@
 {
-	"name": "gamehoster-docs",
+	"name": "docs",
 	"compatibility_date": "2026-11-07",
 	"assets": {
 		"directory": "./docs/.vitepress/dist",
