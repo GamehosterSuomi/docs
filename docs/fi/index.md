@@ -7,8 +7,8 @@ hero:
   tagline: Löydä palvelullesi sopivat käyttö- ja vianmääritysohjeet.
   actions:
     - theme: brand
-      text: Pelipalvelimet
-      link: /fi/games/
+      text: Aloittaminen
+      link: /fi/getting-started/
     - theme: alt
       text: Minecraft-ohjeet
       link: /fi/minecraft/
@@ -17,9 +17,18 @@ features:
   - title: Minecraft
     details: Käyttöönotto, maailmat, lisäosat, asetukset ja vianmääritys.
     link: /fi/minecraft/
-  - title: Pelipalvelimet
-    details: Pelikohtaiset ohjeet ja pelipaneelin käyttö.
-    link: /fi/games/
+  - title: FX / FiveM
+    details: FX-palvelimen käyttöönotto ja hallinta.
+    link: /fi/games/fivem/
+  - title: Valheim
+    details: Käyttöönotto, maailma ja pelaajat.
+    link: /fi/games/valheim/
+  - title: Hytale
+    details: Käyttöönotto, maailma ja palvelimen ylläpito.
+    link: /fi/games/hytale/
+  - title: Rust
+    details: Käyttöönotto, kartta ja palvelimen ylläpito.
+    link: /fi/games/rust/
   - title: VPS
     details: VPS-hallinta, SSH, varmuuskopiot ja ongelmien ratkaisut.
     link: /fi/vps/

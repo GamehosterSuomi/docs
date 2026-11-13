@@ -7,8 +7,8 @@ hero:
   tagline: Find setup and troubleshooting guides for your service.
   actions:
     - theme: brand
-      text: Game servers
-      link: /en/games/
+      text: Getting started
+      link: /en/getting-started/
     - theme: alt
       text: Minecraft Tutorials
       link: /en/minecraft/
@@ -17,9 +17,18 @@ features:
   - title: Minecraft
     details: Setup, worlds, plugins, settings and troubleshooting.
     link: /en/minecraft/
-  - title: Game servers
-    details: Game-specific guides and game panel management.
-    link: /en/games/
+  - title: FX / FiveM
+    details: FX server setup and management.
+    link: /en/games/fivem/
+  - title: Valheim
+    details: Setup, worlds and players.
+    link: /en/games/valheim/
+  - title: Hytale
+    details: Setup, worlds and server maintenance.
+    link: /en/games/hytale/
+  - title: Rust
+    details: Setup, maps and server maintenance.
+    link: /en/games/rust/
   - title: VPS
     details: VPS management, SSH, backups and troubleshooting.
     link: /en/vps/

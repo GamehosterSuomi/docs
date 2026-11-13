@@ -15,16 +15,28 @@ export default defineConfig({
 			themeConfig: {
 				nav: [
   {
-    "text": "Home",
-    "link": "/en/"
+    "text": "Getting started",
+    "link": "/en/getting-started/"
   },
   {
     "text": "Minecraft",
     "link": "/en/minecraft/"
   },
   {
-    "text": "Game servers",
-    "link": "/en/games/"
+    "text": "FX / FiveM",
+    "link": "/en/games/fivem/"
+  },
+  {
+    "text": "Valheim",
+    "link": "/en/games/valheim/"
+  },
+  {
+    "text": "Hytale",
+    "link": "/en/games/hytale/"
+  },
+  {
+    "text": "Rust",
+    "link": "/en/games/rust/"
   },
   {
     "text": "VPS",
@@ -37,6 +49,136 @@ export default defineConfig({
 ],
 
 				sidebar: [
+  {
+    "text": "Getting started",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Getting started with your game server",
+        "link": "/en/getting-started/"
+      },
+      {
+        "text": "",
+        "link": "/en/getting-started/accessing-server"
+      },
+      {
+        "text": "Checking DNS records",
+        "link": "/en/networking/dns-check"
+      },
+      {
+        "text": "Checking startup settings",
+        "link": "/en/server-management/startup-settings"
+      },
+      {
+        "text": "Choosing a schedule time",
+        "link": "/en/server-management/schedule-cron"
+      },
+      {
+        "text": "Connecting a domain to a game server",
+        "link": "/en/networking/domains"
+      },
+      {
+        "text": "Connecting with SFTP",
+        "link": "/en/server-management/sftp"
+      },
+      {
+        "text": "Editing configuration files safely",
+        "link": "/en/server-management/configuration-files"
+      },
+      {
+        "text": "Game server databases",
+        "link": "/en/server-management/databases"
+      },
+      {
+        "text": "Getting started with game servers",
+        "link": "/en/games/"
+      },
+      {
+        "text": "Investigating memory errors",
+        "link": "/en/troubleshooting/memory-errors"
+      },
+      {
+        "text": "Keeping a backup on your computer",
+        "link": "/en/server-management/backup-download"
+      },
+      {
+        "text": "Monitoring resource usage",
+        "link": "/en/server-management/resource-usage"
+      },
+      {
+        "text": "Networking",
+        "link": "/en/networking/"
+      },
+      {
+        "text": "Planning a backup restore",
+        "link": "/en/server-management/restore-planning"
+      },
+      {
+        "text": "Restarting a server safely",
+        "link": "/en/server-management/safe-restart"
+      },
+      {
+        "text": "Reviewing server activity",
+        "link": "/en/server-management/activity"
+      },
+      {
+        "text": "Scheduled tasks",
+        "link": "/en/server-management/schedules"
+      },
+      {
+        "text": "Securing your game panel account",
+        "link": "/en/server-management/account-security"
+      },
+      {
+        "text": "Server addresses and ports",
+        "link": "/en/server-management/network-allocations"
+      },
+      {
+        "text": "Server backups",
+        "link": "/en/server-management/backups"
+      },
+      {
+        "text": "Server disk space is low",
+        "link": "/en/troubleshooting/disk-full"
+      },
+      {
+        "text": "Server management",
+        "link": "/en/server-management/"
+      },
+      {
+        "text": "Server not starting",
+        "link": "/en/troubleshooting/server-not-starting"
+      },
+      {
+        "text": "SFTP connection problems",
+        "link": "/en/troubleshooting/sftp-connection"
+      },
+      {
+        "text": "Starting Your Server",
+        "link": "/en/getting-started/first-startup"
+      },
+      {
+        "text": "Subusers and permissions",
+        "link": "/en/server-management/subusers"
+      },
+      {
+        "text": "Transferring large files",
+        "link": "/en/server-management/file-transfers"
+      },
+      {
+        "text": "Using the console and commands",
+        "link": "/en/server-management/console"
+      },
+      {
+        "text": "Using the file manager",
+        "link": "/en/server-management/file-manager"
+      },
+      {
+        "text": "Writing a useful support request",
+        "link": "/en/troubleshooting/support-request"
+      }
+    ]
+  },
   {
     "text": "Minecraft",
     "collapsed": true,
@@ -70,8 +212,28 @@ export default defineConfig({
         "link": "/en/minecraft/server-software"
       },
       {
+        "text": "Circle and sphere generators",
+        "link": "/en/tools/building"
+      },
+      {
+        "text": "Color codes tool",
+        "link": "/en/tools/color-codes"
+      },
+      {
+        "text": "Coordinate, tick and beacon calculators",
+        "link": "/en/tools/calculators"
+      },
+      {
+        "text": "Crafting recipe editor",
+        "link": "/en/tools/crafting"
+      },
+      {
         "text": "Enabling command blocks",
         "link": "/en/minecraft/command-blocks"
+      },
+      {
+        "text": "Gamehoster Minecraft tools",
+        "link": "/en/tools/"
       },
       {
         "text": "Installing a modpack",
@@ -114,6 +276,10 @@ export default defineConfig({
         "link": "/en/networking/minecraft-srv"
       },
       {
+        "text": "Minecraft ping test",
+        "link": "/en/tools/ping-test"
+      },
+      {
         "text": "Minecraft player allowlist",
         "link": "/en/minecraft/allowlist"
       },
@@ -130,6 +296,14 @@ export default defineConfig({
         "link": "/en/minecraft/server-properties"
       },
       {
+        "text": "Minecraft server status checker",
+        "link": "/en/tools/server-status"
+      },
+      {
+        "text": "MOTD editor",
+        "link": "/en/tools/motd"
+      },
+      {
         "text": "Moving a Minecraft world to the server",
         "link": "/en/minecraft/worlds"
       },
@@ -138,12 +312,24 @@ export default defineConfig({
         "link": "/en/minecraft/resource-pack"
       },
       {
+        "text": "Player UUID converter",
+        "link": "/en/tools/uuid"
+      },
+      {
         "text": "Resetting the Nether",
         "link": "/en/minecraft/reset-nether"
       },
       {
         "text": "Restoring one player's data",
         "link": "/en/minecraft/player-data-restore"
+      },
+      {
+        "text": "Server cost calculator",
+        "link": "/en/tools/cost-calculator"
+      },
+      {
+        "text": "Server icon converter",
+        "link": "/en/tools/server-icon"
       },
       {
         "text": "Setting a new world seed",
@@ -158,356 +344,176 @@ export default defineConfig({
         "link": "/en/minecraft/world-spawn"
       },
       {
+        "text": "Skins and pixel text",
+        "link": "/en/tools/skin-font"
+      },
+      {
         "text": "Troubleshooting Minecraft server performance",
         "link": "/en/minecraft/performance"
       },
       {
         "text": "Updating a Minecraft plugin",
         "link": "/en/minecraft/plugin-updates"
-      },
-      {
-        "text": "Minecraft tools",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Gamehoster Minecraft tools",
-            "link": "/en/tools/"
-          },
-          {
-            "text": "Circle and sphere generators",
-            "link": "/en/tools/building"
-          },
-          {
-            "text": "Color codes tool",
-            "link": "/en/tools/color-codes"
-          },
-          {
-            "text": "Coordinate, tick and beacon calculators",
-            "link": "/en/tools/calculators"
-          },
-          {
-            "text": "Crafting recipe editor",
-            "link": "/en/tools/crafting"
-          },
-          {
-            "text": "Minecraft ping test",
-            "link": "/en/tools/ping-test"
-          },
-          {
-            "text": "Minecraft server status checker",
-            "link": "/en/tools/server-status"
-          },
-          {
-            "text": "MOTD editor",
-            "link": "/en/tools/motd"
-          },
-          {
-            "text": "Player UUID converter",
-            "link": "/en/tools/uuid"
-          },
-          {
-            "text": "Server cost calculator",
-            "link": "/en/tools/cost-calculator"
-          },
-          {
-            "text": "Server icon converter",
-            "link": "/en/tools/server-icon"
-          },
-          {
-            "text": "Skins and pixel text",
-            "link": "/en/tools/skin-font"
-          }
-        ]
       }
     ]
   },
   {
-    "text": "Game servers",
+    "text": "FX / FiveM",
     "collapsed": true,
     "items": [
       {
-        "text": "Getting started with game servers",
-        "link": "/en/games/"
+        "text": "Getting started with an FX server",
+        "link": "/en/games/fivem/"
+      }
+    ]
+  },
+  {
+    "text": "Valheim",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Getting started with a Valheim server",
+        "link": "/en/games/valheim/"
       },
       {
-        "text": "Getting started with your game server",
-        "link": "/en/getting-started/"
+        "text": "Backing up a Valheim world",
+        "link": "/en/games/valheim/backups"
       },
       {
-        "text": "Networking",
-        "link": "/en/networking/"
+        "text": "Connecting to a Valheim server",
+        "link": "/en/games/valheim/connecting"
       },
       {
-        "text": "Server management",
-        "link": "/en/server-management/"
+        "text": "First startup of a Valheim server",
+        "link": "/en/games/valheim/first-start"
       },
       {
-        "text": "",
-        "link": "/en/getting-started/accessing-server"
+        "text": "Getting started with a Valheim server",
+        "link": "/en/games/valheim/getting-started"
       },
       {
-        "text": "Checking DNS records",
-        "link": "/en/networking/dns-check"
+        "text": "Moving a Valheim world",
+        "link": "/en/games/valheim/worlds"
       },
       {
-        "text": "Checking startup settings",
-        "link": "/en/server-management/startup-settings"
+        "text": "Troubleshooting Valheim",
+        "link": "/en/games/valheim/troubleshooting"
       },
       {
-        "text": "Choosing a schedule time",
-        "link": "/en/server-management/schedule-cron"
+        "text": "Updating Valheim",
+        "link": "/en/games/valheim/updates"
       },
       {
-        "text": "Connecting a domain to a game server",
-        "link": "/en/networking/domains"
+        "text": "Valheim player permissions and bans",
+        "link": "/en/games/valheim/players"
       },
       {
-        "text": "Connecting with SFTP",
-        "link": "/en/server-management/sftp"
+        "text": "Valheim server mods",
+        "link": "/en/games/valheim/mods"
       },
       {
-        "text": "Editing configuration files safely",
-        "link": "/en/server-management/configuration-files"
+        "text": "Valheim server settings",
+        "link": "/en/games/valheim/settings"
+      }
+    ]
+  },
+  {
+    "text": "Hytale",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Hytale server guides",
+        "link": "/en/games/hytale/"
       },
       {
-        "text": "Game server databases",
-        "link": "/en/server-management/databases"
+        "text": "Authenticating a Hytale server",
+        "link": "/en/games/hytale/authentication"
       },
       {
-        "text": "Investigating memory errors",
-        "link": "/en/troubleshooting/memory-errors"
+        "text": "Changing Hytale server settings",
+        "link": "/en/games/hytale/configuration"
       },
       {
-        "text": "Keeping a backup on your computer",
-        "link": "/en/server-management/backup-download"
+        "text": "Connecting to a Hytale server",
+        "link": "/en/games/hytale/connecting"
       },
       {
-        "text": "Monitoring resource usage",
-        "link": "/en/server-management/resource-usage"
+        "text": "Hytale backups and restoration",
+        "link": "/en/games/hytale/backups"
       },
       {
-        "text": "Planning a backup restore",
-        "link": "/en/server-management/restore-planning"
+        "text": "Hytale player access and permissions",
+        "link": "/en/games/hytale/player-access"
       },
       {
-        "text": "Restarting a server safely",
-        "link": "/en/server-management/safe-restart"
+        "text": "Hytale worlds and player data",
+        "link": "/en/games/hytale/worlds"
       },
       {
-        "text": "Reviewing server activity",
-        "link": "/en/server-management/activity"
+        "text": "Installing Hytale server mods",
+        "link": "/en/games/hytale/mods"
       },
       {
-        "text": "Scheduled tasks",
-        "link": "/en/server-management/schedules"
+        "text": "Starting a Hytale server",
+        "link": "/en/games/hytale/getting-started"
       },
       {
-        "text": "Securing your game panel account",
-        "link": "/en/server-management/account-security"
+        "text": "Troubleshooting a Hytale server",
+        "link": "/en/games/hytale/troubleshooting"
       },
       {
-        "text": "Server addresses and ports",
-        "link": "/en/server-management/network-allocations"
+        "text": "Updating a Hytale server",
+        "link": "/en/games/hytale/updates"
+      }
+    ]
+  },
+  {
+    "text": "Rust",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Rust server guides",
+        "link": "/en/games/rust/"
       },
       {
-        "text": "Server backups",
-        "link": "/en/server-management/backups"
+        "text": "Backing up a Rust server",
+        "link": "/en/games/rust/backups"
       },
       {
-        "text": "Server disk space is low",
-        "link": "/en/troubleshooting/disk-full"
+        "text": "Connecting to a Rust server",
+        "link": "/en/games/rust/connecting"
       },
       {
-        "text": "Server not starting",
-        "link": "/en/troubleshooting/server-not-starting"
+        "text": "First startup of a Rust server",
+        "link": "/en/games/rust/first-start"
       },
       {
-        "text": "SFTP connection problems",
-        "link": "/en/troubleshooting/sftp-connection"
+        "text": "Getting started with a Rust server",
+        "link": "/en/games/rust/getting-started"
       },
       {
-        "text": "Starting Your Server",
-        "link": "/en/getting-started/first-startup"
+        "text": "Rust administrators and players",
+        "link": "/en/games/rust/players"
       },
       {
-        "text": "Subusers and permissions",
-        "link": "/en/server-management/subusers"
+        "text": "Rust maps, saves and wipes",
+        "link": "/en/games/rust/worlds"
       },
       {
-        "text": "Transferring large files",
-        "link": "/en/server-management/file-transfers"
+        "text": "Rust Oxide/uMod plugins",
+        "link": "/en/games/rust/mods"
       },
       {
-        "text": "Using the console and commands",
-        "link": "/en/server-management/console"
+        "text": "Rust server settings",
+        "link": "/en/games/rust/settings"
       },
       {
-        "text": "Using the file manager",
-        "link": "/en/server-management/file-manager"
+        "text": "Troubleshooting a Rust server",
+        "link": "/en/games/rust/troubleshooting"
       },
       {
-        "text": "Writing a useful support request",
-        "link": "/en/troubleshooting/support-request"
-      },
-      {
-        "text": "FX / FiveM",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Getting started with an FX server",
-            "link": "/en/games/fivem/"
-          }
-        ]
-      },
-      {
-        "text": "Valheim",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Getting started with a Valheim server",
-            "link": "/en/games/valheim/"
-          },
-          {
-            "text": "Backing up a Valheim world",
-            "link": "/en/games/valheim/backups"
-          },
-          {
-            "text": "Connecting to a Valheim server",
-            "link": "/en/games/valheim/connecting"
-          },
-          {
-            "text": "First startup of a Valheim server",
-            "link": "/en/games/valheim/first-start"
-          },
-          {
-            "text": "Getting started with a Valheim server",
-            "link": "/en/games/valheim/getting-started"
-          },
-          {
-            "text": "Moving a Valheim world",
-            "link": "/en/games/valheim/worlds"
-          },
-          {
-            "text": "Troubleshooting Valheim",
-            "link": "/en/games/valheim/troubleshooting"
-          },
-          {
-            "text": "Updating Valheim",
-            "link": "/en/games/valheim/updates"
-          },
-          {
-            "text": "Valheim player permissions and bans",
-            "link": "/en/games/valheim/players"
-          },
-          {
-            "text": "Valheim server mods",
-            "link": "/en/games/valheim/mods"
-          },
-          {
-            "text": "Valheim server settings",
-            "link": "/en/games/valheim/settings"
-          }
-        ]
-      },
-      {
-        "text": "Hytale",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Hytale server guides",
-            "link": "/en/games/hytale/"
-          },
-          {
-            "text": "Authenticating a Hytale server",
-            "link": "/en/games/hytale/authentication"
-          },
-          {
-            "text": "Changing Hytale server settings",
-            "link": "/en/games/hytale/configuration"
-          },
-          {
-            "text": "Connecting to a Hytale server",
-            "link": "/en/games/hytale/connecting"
-          },
-          {
-            "text": "Hytale backups and restoration",
-            "link": "/en/games/hytale/backups"
-          },
-          {
-            "text": "Hytale player access and permissions",
-            "link": "/en/games/hytale/player-access"
-          },
-          {
-            "text": "Hytale worlds and player data",
-            "link": "/en/games/hytale/worlds"
-          },
-          {
-            "text": "Installing Hytale server mods",
-            "link": "/en/games/hytale/mods"
-          },
-          {
-            "text": "Starting a Hytale server",
-            "link": "/en/games/hytale/getting-started"
-          },
-          {
-            "text": "Troubleshooting a Hytale server",
-            "link": "/en/games/hytale/troubleshooting"
-          },
-          {
-            "text": "Updating a Hytale server",
-            "link": "/en/games/hytale/updates"
-          }
-        ]
-      },
-      {
-        "text": "Rust",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Rust server guides",
-            "link": "/en/games/rust/"
-          },
-          {
-            "text": "Backing up a Rust server",
-            "link": "/en/games/rust/backups"
-          },
-          {
-            "text": "Connecting to a Rust server",
-            "link": "/en/games/rust/connecting"
-          },
-          {
-            "text": "First startup of a Rust server",
-            "link": "/en/games/rust/first-start"
-          },
-          {
-            "text": "Getting started with a Rust server",
-            "link": "/en/games/rust/getting-started"
-          },
-          {
-            "text": "Rust administrators and players",
-            "link": "/en/games/rust/players"
-          },
-          {
-            "text": "Rust maps, saves and wipes",
-            "link": "/en/games/rust/worlds"
-          },
-          {
-            "text": "Rust Oxide/uMod plugins",
-            "link": "/en/games/rust/mods"
-          },
-          {
-            "text": "Rust server settings",
-            "link": "/en/games/rust/settings"
-          },
-          {
-            "text": "Troubleshooting a Rust server",
-            "link": "/en/games/rust/troubleshooting"
-          },
-          {
-            "text": "Updating Rust",
-            "link": "/en/games/rust/updates"
-          }
-        ]
+        "text": "Updating Rust",
+        "link": "/en/games/rust/updates"
       }
     ]
   },
@@ -673,16 +679,28 @@ export default defineConfig({
 			themeConfig: {
 				nav: [
   {
-    "text": "Etusivu",
-    "link": "/fi/"
+    "text": "Aloittaminen",
+    "link": "/fi/getting-started/"
   },
   {
     "text": "Minecraft",
     "link": "/fi/minecraft/"
   },
   {
-    "text": "Pelipalvelimet",
-    "link": "/fi/games/"
+    "text": "FX / FiveM",
+    "link": "/fi/games/fivem/"
+  },
+  {
+    "text": "Valheim",
+    "link": "/fi/games/valheim/"
+  },
+  {
+    "text": "Hytale",
+    "link": "/fi/games/hytale/"
+  },
+  {
+    "text": "Rust",
+    "link": "/fi/games/rust/"
   },
   {
     "text": "VPS",
@@ -696,6 +714,136 @@ export default defineConfig({
 
 				sidebar: [
   {
+    "text": "Aloittaminen",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Pelipalvelimen käyttöönotto",
+        "link": "/fi/getting-started/"
+      },
+      {
+        "text": "Ajastetut tehtävät",
+        "link": "/fi/server-management/schedules"
+      },
+      {
+        "text": "Ajastuksen ajankohdan määrittäminen",
+        "link": "/fi/server-management/schedule-cron"
+      },
+      {
+        "text": "Alikäyttäjät ja käyttöoikeudet",
+        "link": "/fi/server-management/subusers"
+      },
+      {
+        "text": "Asetustiedoston turvallinen muokkaaminen",
+        "link": "/fi/server-management/configuration-files"
+      },
+      {
+        "text": "DNS-tietueiden tarkistaminen",
+        "link": "/fi/networking/dns-check"
+      },
+      {
+        "text": "Ensimmäinen käynnistys",
+        "link": "/fi/getting-started/first-startup"
+      },
+      {
+        "text": "Hyvän tukipyynnön tekeminen",
+        "link": "/fi/troubleshooting/support-request"
+      },
+      {
+        "text": "Konsolin käyttö ja komennot",
+        "link": "/fi/server-management/console"
+      },
+      {
+        "text": "Käynnistysasetusten tarkistaminen",
+        "link": "/fi/server-management/startup-settings"
+      },
+      {
+        "text": "Muistivirheen selvittäminen",
+        "link": "/fi/troubleshooting/memory-errors"
+      },
+      {
+        "text": "Palvelimen hallinta",
+        "link": "/fi/server-management/"
+      },
+      {
+        "text": "Palvelimen levytila on vähissä",
+        "link": "/fi/troubleshooting/disk-full"
+      },
+      {
+        "text": "Palvelimen osoitteet ja portit paneelissa",
+        "link": "/fi/server-management/network-allocations"
+      },
+      {
+        "text": "Palvelimen tapahtumien tarkistaminen",
+        "link": "/fi/server-management/activity"
+      },
+      {
+        "text": "Palvelimen turvallinen uudelleenkäynnistys",
+        "link": "/fi/server-management/safe-restart"
+      },
+      {
+        "text": "Palvelimen varmuuskopiot",
+        "link": "/fi/server-management/backups"
+      },
+      {
+        "text": "Palvelin ei käynnisty",
+        "link": "/fi/troubleshooting/server-not-starting"
+      },
+      {
+        "text": "Pelipalvelimen hallintapaneeliin kirjautuminen",
+        "link": "/fi/getting-started/accessing-server"
+      },
+      {
+        "text": "Pelipalvelimen tietokannat",
+        "link": "/fi/server-management/databases"
+      },
+      {
+        "text": "Pelipalvelimien käyttöönotto",
+        "link": "/fi/games/"
+      },
+      {
+        "text": "Pelipaneelin tilin suojaaminen",
+        "link": "/fi/server-management/account-security"
+      },
+      {
+        "text": "Resurssien käytön seuraaminen",
+        "link": "/fi/server-management/resource-usage"
+      },
+      {
+        "text": "SFTP-yhteys ei onnistu",
+        "link": "/fi/troubleshooting/sftp-connection"
+      },
+      {
+        "text": "Suurten tiedostojen siirtäminen",
+        "link": "/fi/server-management/file-transfers"
+      },
+      {
+        "text": "Tiedostonhallinnan käyttö",
+        "link": "/fi/server-management/file-manager"
+      },
+      {
+        "text": "Varmuuskopion palautuksen suunnittelu",
+        "link": "/fi/server-management/restore-planning"
+      },
+      {
+        "text": "Varmuuskopion säilyttäminen omalla koneella",
+        "link": "/fi/server-management/backup-download"
+      },
+      {
+        "text": "Verkkoasetukset",
+        "link": "/fi/networking/"
+      },
+      {
+        "text": "Verkkotunnuksen yhdistäminen",
+        "link": "/fi/networking/domains"
+      },
+      {
+        "text": "Yhdistäminen SFTP:llä",
+        "link": "/fi/server-management/sftp"
+      }
+    ]
+  },
+  {
     "text": "Minecraft",
     "collapsed": true,
     "items": [
@@ -704,12 +852,20 @@ export default defineConfig({
         "link": "/fi/minecraft/"
       },
       {
+        "text": "Gamehosterin Minecraft-työkalut",
+        "link": "/fi/tools/"
+      },
+      {
         "text": "Java- ja Bedrock-pelaajat samalla palvelimella",
         "link": "/fi/minecraft/java-bedrock"
       },
       {
         "text": "Komentolohkojen käyttöönotto",
         "link": "/fi/minecraft/command-blocks"
+      },
+      {
+        "text": "Koordinaatti-, tick- ja beacon-laskurit",
+        "link": "/fi/tools/calculators"
       },
       {
         "text": "Lisäosa ei toimi",
@@ -764,6 +920,10 @@ export default defineConfig({
         "link": "/fi/minecraft/performance"
       },
       {
+        "text": "Minecraft-palvelimen tilatarkistus",
+        "link": "/fi/tools/server-status"
+      },
+      {
         "text": "Minecraft-palvelimen version vaihtaminen",
         "link": "/fi/minecraft/version-change"
       },
@@ -780,6 +940,10 @@ export default defineConfig({
         "link": "/fi/minecraft/operators"
       },
       {
+        "text": "Minecraft-ping-testi",
+        "link": "/fi/tools/ping-test"
+      },
+      {
         "text": "Minecraftin lokien tutkiminen",
         "link": "/fi/minecraft/logs"
       },
@@ -792,6 +956,10 @@ export default defineConfig({
         "link": "/fi/minecraft/modpacks"
       },
       {
+        "text": "MOTD-editori",
+        "link": "/fi/tools/motd"
+      },
+      {
         "text": "Netherin palauttaminen uuteen tilaan",
         "link": "/fi/minecraft/reset-nether"
       },
@@ -800,12 +968,24 @@ export default defineConfig({
         "link": "/fi/minecraft/luckperms"
       },
       {
+        "text": "Palvelinkustannusten laskuri",
+        "link": "/fi/tools/cost-calculator"
+      },
+      {
         "text": "Palvelinkuvakkeen lisääminen",
         "link": "/fi/minecraft/server-icon"
       },
       {
+        "text": "Palvelinkuvakkeen muunnin",
+        "link": "/fi/tools/server-icon"
+      },
+      {
         "text": "Pelaajan poistaminen ja porttikielto",
         "link": "/fi/minecraft/bans"
+      },
+      {
+        "text": "Pelaajan UUID-muunnin",
+        "link": "/fi/tools/uuid"
       },
       {
         "text": "Pelisääntöjen muuttaminen",
@@ -816,356 +996,188 @@ export default defineConfig({
         "link": "/fi/minecraft/resource-pack"
       },
       {
+        "text": "Skini ja pikseliteksti",
+        "link": "/fi/tools/skin-font"
+      },
+      {
         "text": "Uuden maailman siemen",
         "link": "/fi/minecraft/world-seed"
+      },
+      {
+        "text": "Valmistusreseptien editori",
+        "link": "/fi/tools/crafting"
+      },
+      {
+        "text": "Värikoodityökalu",
+        "link": "/fi/tools/color-codes"
       },
       {
         "text": "Yksittäisen pelaajan tietojen palauttaminen",
         "link": "/fi/minecraft/player-data-restore"
       },
       {
-        "text": "Minecraft-työkalut",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Gamehosterin Minecraft-työkalut",
-            "link": "/fi/tools/"
-          },
-          {
-            "text": "Koordinaatti-, tick- ja beacon-laskurit",
-            "link": "/fi/tools/calculators"
-          },
-          {
-            "text": "Minecraft-palvelimen tilatarkistus",
-            "link": "/fi/tools/server-status"
-          },
-          {
-            "text": "Minecraft-ping-testi",
-            "link": "/fi/tools/ping-test"
-          },
-          {
-            "text": "MOTD-editori",
-            "link": "/fi/tools/motd"
-          },
-          {
-            "text": "Palvelinkustannusten laskuri",
-            "link": "/fi/tools/cost-calculator"
-          },
-          {
-            "text": "Palvelinkuvakkeen muunnin",
-            "link": "/fi/tools/server-icon"
-          },
-          {
-            "text": "Pelaajan UUID-muunnin",
-            "link": "/fi/tools/uuid"
-          },
-          {
-            "text": "Skini ja pikseliteksti",
-            "link": "/fi/tools/skin-font"
-          },
-          {
-            "text": "Valmistusreseptien editori",
-            "link": "/fi/tools/crafting"
-          },
-          {
-            "text": "Värikoodityökalu",
-            "link": "/fi/tools/color-codes"
-          },
-          {
-            "text": "Ympyrä- ja pallogeneraattorit",
-            "link": "/fi/tools/building"
-          }
-        ]
+        "text": "Ympyrä- ja pallogeneraattorit",
+        "link": "/fi/tools/building"
       }
     ]
   },
   {
-    "text": "Pelipalvelimet",
+    "text": "FX / FiveM",
     "collapsed": true,
     "items": [
       {
-        "text": "Palvelimen hallinta",
-        "link": "/fi/server-management/"
+        "text": "FX-palvelimen käyttöönotto",
+        "link": "/fi/games/fivem/"
+      }
+    ]
+  },
+  {
+    "text": "Valheim",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Valheim-palvelimen ohjeet",
+        "link": "/fi/games/valheim/"
       },
       {
-        "text": "Pelipalvelimen käyttöönotto",
-        "link": "/fi/getting-started/"
+        "text": "Modit Valheim-palvelimella",
+        "link": "/fi/games/valheim/mods"
       },
       {
-        "text": "Pelipalvelimien käyttöönotto",
-        "link": "/fi/games/"
+        "text": "Valheim-maailman siirtäminen",
+        "link": "/fi/games/valheim/worlds"
       },
       {
-        "text": "Verkkoasetukset",
-        "link": "/fi/networking/"
+        "text": "Valheim-maailman varmuuskopiointi",
+        "link": "/fi/games/valheim/backups"
       },
       {
-        "text": "Ajastetut tehtävät",
-        "link": "/fi/server-management/schedules"
+        "text": "Valheim-palvelimeen liittyminen",
+        "link": "/fi/games/valheim/connecting"
       },
       {
-        "text": "Ajastuksen ajankohdan määrittäminen",
-        "link": "/fi/server-management/schedule-cron"
+        "text": "Valheim-palvelimen asetukset",
+        "link": "/fi/games/valheim/settings"
       },
       {
-        "text": "Alikäyttäjät ja käyttöoikeudet",
-        "link": "/fi/server-management/subusers"
+        "text": "Valheim-palvelimen käyttöönotto",
+        "link": "/fi/games/valheim/getting-started"
       },
       {
-        "text": "Asetustiedoston turvallinen muokkaaminen",
-        "link": "/fi/server-management/configuration-files"
+        "text": "Valheim-palvelimen vianmääritys",
+        "link": "/fi/games/valheim/troubleshooting"
       },
       {
-        "text": "DNS-tietueiden tarkistaminen",
-        "link": "/fi/networking/dns-check"
+        "text": "Valheimin ensimmäinen käynnistys",
+        "link": "/fi/games/valheim/first-start"
       },
       {
-        "text": "Ensimmäinen käynnistys",
-        "link": "/fi/getting-started/first-startup"
+        "text": "Valheimin pelaajien oikeudet ja kiellot",
+        "link": "/fi/games/valheim/players"
       },
       {
-        "text": "Hyvän tukipyynnön tekeminen",
-        "link": "/fi/troubleshooting/support-request"
+        "text": "Valheimin päivittäminen",
+        "link": "/fi/games/valheim/updates"
+      }
+    ]
+  },
+  {
+    "text": "Hytale",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Hytale-palvelimen ohjeet",
+        "link": "/fi/games/hytale/"
       },
       {
-        "text": "Konsolin käyttö ja komennot",
-        "link": "/fi/server-management/console"
+        "text": "Hytale-maailmat ja pelaajatiedot",
+        "link": "/fi/games/hytale/worlds"
       },
       {
-        "text": "Käynnistysasetusten tarkistaminen",
-        "link": "/fi/server-management/startup-settings"
+        "text": "Hytale-palvelimen asetusten muuttaminen",
+        "link": "/fi/games/hytale/configuration"
       },
       {
-        "text": "Muistivirheen selvittäminen",
-        "link": "/fi/troubleshooting/memory-errors"
+        "text": "Hytale-palvelimen ensimmäinen käynnistys",
+        "link": "/fi/games/hytale/getting-started"
       },
       {
-        "text": "Palvelimen levytila on vähissä",
-        "link": "/fi/troubleshooting/disk-full"
+        "text": "Hytale-palvelimen päivittäminen",
+        "link": "/fi/games/hytale/updates"
       },
       {
-        "text": "Palvelimen osoitteet ja portit paneelissa",
-        "link": "/fi/server-management/network-allocations"
+        "text": "Hytale-palvelimen tunnistautuminen",
+        "link": "/fi/games/hytale/authentication"
       },
       {
-        "text": "Palvelimen tapahtumien tarkistaminen",
-        "link": "/fi/server-management/activity"
+        "text": "Hytale-palvelimen varmuuskopiointi ja palautus",
+        "link": "/fi/games/hytale/backups"
       },
       {
-        "text": "Palvelimen turvallinen uudelleenkäynnistys",
-        "link": "/fi/server-management/safe-restart"
+        "text": "Hytale-palvelimen vianmääritys",
+        "link": "/fi/games/hytale/troubleshooting"
       },
       {
-        "text": "Palvelimen varmuuskopiot",
-        "link": "/fi/server-management/backups"
+        "text": "Modien asentaminen Hytale-palvelimelle",
+        "link": "/fi/games/hytale/mods"
       },
       {
-        "text": "Palvelin ei käynnisty",
-        "link": "/fi/troubleshooting/server-not-starting"
+        "text": "Pelaajien pääsy ja oikeudet Hytale-palvelimella",
+        "link": "/fi/games/hytale/player-access"
       },
       {
-        "text": "Pelipalvelimen hallintapaneeliin kirjautuminen",
-        "link": "/fi/getting-started/accessing-server"
+        "text": "Yhdistäminen Hytale-palvelimelle",
+        "link": "/fi/games/hytale/connecting"
+      }
+    ]
+  },
+  {
+    "text": "Rust",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Rust-palvelimen ohjeet",
+        "link": "/fi/games/rust/"
       },
       {
-        "text": "Pelipalvelimen tietokannat",
-        "link": "/fi/server-management/databases"
+        "text": "Rust-palvelimelle liittyminen",
+        "link": "/fi/games/rust/connecting"
       },
       {
-        "text": "Pelipaneelin tilin suojaaminen",
-        "link": "/fi/server-management/account-security"
+        "text": "Rust-palvelimen asetukset",
+        "link": "/fi/games/rust/settings"
       },
       {
-        "text": "Resurssien käytön seuraaminen",
-        "link": "/fi/server-management/resource-usage"
+        "text": "Rust-palvelimen ensimmäinen käynnistys",
+        "link": "/fi/games/rust/first-start"
       },
       {
-        "text": "SFTP-yhteys ei onnistu",
-        "link": "/fi/troubleshooting/sftp-connection"
+        "text": "Rust-palvelimen käyttöönotto",
+        "link": "/fi/games/rust/getting-started"
       },
       {
-        "text": "Suurten tiedostojen siirtäminen",
-        "link": "/fi/server-management/file-transfers"
+        "text": "Rust-palvelimen päivittäminen",
+        "link": "/fi/games/rust/updates"
       },
       {
-        "text": "Tiedostonhallinnan käyttö",
-        "link": "/fi/server-management/file-manager"
+        "text": "Rust-palvelimen varmuuskopiointi",
+        "link": "/fi/games/rust/backups"
       },
       {
-        "text": "Varmuuskopion palautuksen suunnittelu",
-        "link": "/fi/server-management/restore-planning"
+        "text": "Rust-palvelimen vianmääritys",
+        "link": "/fi/games/rust/troubleshooting"
       },
       {
-        "text": "Varmuuskopion säilyttäminen omalla koneella",
-        "link": "/fi/server-management/backup-download"
+        "text": "Rustin kartta, tallennukset ja wipe",
+        "link": "/fi/games/rust/worlds"
       },
       {
-        "text": "Verkkotunnuksen yhdistäminen",
-        "link": "/fi/networking/domains"
+        "text": "Rustin Oxide/uMod-lisäosat",
+        "link": "/fi/games/rust/mods"
       },
       {
-        "text": "Yhdistäminen SFTP:llä",
-        "link": "/fi/server-management/sftp"
-      },
-      {
-        "text": "FX / FiveM",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "FX-palvelimen käyttöönotto",
-            "link": "/fi/games/fivem/"
-          }
-        ]
-      },
-      {
-        "text": "Valheim",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Valheim-palvelimen ohjeet",
-            "link": "/fi/games/valheim/"
-          },
-          {
-            "text": "Modit Valheim-palvelimella",
-            "link": "/fi/games/valheim/mods"
-          },
-          {
-            "text": "Valheim-maailman siirtäminen",
-            "link": "/fi/games/valheim/worlds"
-          },
-          {
-            "text": "Valheim-maailman varmuuskopiointi",
-            "link": "/fi/games/valheim/backups"
-          },
-          {
-            "text": "Valheim-palvelimeen liittyminen",
-            "link": "/fi/games/valheim/connecting"
-          },
-          {
-            "text": "Valheim-palvelimen asetukset",
-            "link": "/fi/games/valheim/settings"
-          },
-          {
-            "text": "Valheim-palvelimen käyttöönotto",
-            "link": "/fi/games/valheim/getting-started"
-          },
-          {
-            "text": "Valheim-palvelimen vianmääritys",
-            "link": "/fi/games/valheim/troubleshooting"
-          },
-          {
-            "text": "Valheimin ensimmäinen käynnistys",
-            "link": "/fi/games/valheim/first-start"
-          },
-          {
-            "text": "Valheimin pelaajien oikeudet ja kiellot",
-            "link": "/fi/games/valheim/players"
-          },
-          {
-            "text": "Valheimin päivittäminen",
-            "link": "/fi/games/valheim/updates"
-          }
-        ]
-      },
-      {
-        "text": "Hytale",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Hytale-palvelimen ohjeet",
-            "link": "/fi/games/hytale/"
-          },
-          {
-            "text": "Hytale-maailmat ja pelaajatiedot",
-            "link": "/fi/games/hytale/worlds"
-          },
-          {
-            "text": "Hytale-palvelimen asetusten muuttaminen",
-            "link": "/fi/games/hytale/configuration"
-          },
-          {
-            "text": "Hytale-palvelimen ensimmäinen käynnistys",
-            "link": "/fi/games/hytale/getting-started"
-          },
-          {
-            "text": "Hytale-palvelimen päivittäminen",
-            "link": "/fi/games/hytale/updates"
-          },
-          {
-            "text": "Hytale-palvelimen tunnistautuminen",
-            "link": "/fi/games/hytale/authentication"
-          },
-          {
-            "text": "Hytale-palvelimen varmuuskopiointi ja palautus",
-            "link": "/fi/games/hytale/backups"
-          },
-          {
-            "text": "Hytale-palvelimen vianmääritys",
-            "link": "/fi/games/hytale/troubleshooting"
-          },
-          {
-            "text": "Modien asentaminen Hytale-palvelimelle",
-            "link": "/fi/games/hytale/mods"
-          },
-          {
-            "text": "Pelaajien pääsy ja oikeudet Hytale-palvelimella",
-            "link": "/fi/games/hytale/player-access"
-          },
-          {
-            "text": "Yhdistäminen Hytale-palvelimelle",
-            "link": "/fi/games/hytale/connecting"
-          }
-        ]
-      },
-      {
-        "text": "Rust",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Rust-palvelimen ohjeet",
-            "link": "/fi/games/rust/"
-          },
-          {
-            "text": "Rust-palvelimelle liittyminen",
-            "link": "/fi/games/rust/connecting"
-          },
-          {
-            "text": "Rust-palvelimen asetukset",
-            "link": "/fi/games/rust/settings"
-          },
-          {
-            "text": "Rust-palvelimen ensimmäinen käynnistys",
-            "link": "/fi/games/rust/first-start"
-          },
-          {
-            "text": "Rust-palvelimen käyttöönotto",
-            "link": "/fi/games/rust/getting-started"
-          },
-          {
-            "text": "Rust-palvelimen päivittäminen",
-            "link": "/fi/games/rust/updates"
-          },
-          {
-            "text": "Rust-palvelimen varmuuskopiointi",
-            "link": "/fi/games/rust/backups"
-          },
-          {
-            "text": "Rust-palvelimen vianmääritys",
-            "link": "/fi/games/rust/troubleshooting"
-          },
-          {
-            "text": "Rustin kartta, tallennukset ja wipe",
-            "link": "/fi/games/rust/worlds"
-          },
-          {
-            "text": "Rustin Oxide/uMod-lisäosat",
-            "link": "/fi/games/rust/mods"
-          },
-          {
-            "text": "Rustin ylläpitäjät ja pelaajahallinta",
-            "link": "/fi/games/rust/players"
-          }
-        ]
+        "text": "Rustin ylläpitäjät ja pelaajahallinta",
+        "link": "/fi/games/rust/players"
       }
     ]
   },
