@@ -187,6 +187,13 @@ export default defineConfig({
 							{ text: "Updating WordPress safely", link: "/en/webhosting/wordpress-updates" },
 							{ text: "Setting up WordPress", link: "/en/webhosting/wordpress" },
 					] },
+					{ text: "Game server guides", collapsed: true, items: [
+						{ text: "Overview", link: "/en/games/" },
+						{ text: "FX server", link: "/en/games/fivem/" },
+						{ text: "Valheim", link: "/en/games/valheim/" },
+						{ text: "Hytale", link: "/en/games/hytale/" },
+						{ text: "Rust", link: "/en/games/rust/" },
+					] },
 					{ text: "Tools guides", collapsed: true, items: [
 							{ text: "Overview", link: "/en/tools/" },
 							{ text: "Circle and sphere generators", link: "/en/tools/building" },
@@ -414,6 +421,13 @@ export default defineConfig({
 							{ text: "WordPressin päivittäminen turvallisesti", link: "/fi/webhosting/wordpress-updates" },
 						],
 					},
+					{ text: "Pelipalvelimet", collapsed: true, items: [
+						{ text: "Yleiskatsaus", link: "/fi/games/" },
+						{ text: "FX-palvelin", link: "/fi/games/fivem/" },
+						{ text: "Valheim", link: "/fi/games/valheim/" },
+						{ text: "Hytale", link: "/fi/games/hytale/" },
+						{ text: "Rust", link: "/fi/games/rust/" },
+					] },
 					{ text: "Työkalut", collapsed: true, items: [
 							{ text: "Yleiskatsaus", link: "/fi/tools/" },
 							{ text: "Ympyrä- ja pallogeneraattorit", link: "/fi/tools/building" },

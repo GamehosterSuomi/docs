@@ -36,4 +36,15 @@ Replace the example values with your own. Verify the server's host key against i
 
 Reinstallation, restoration and forced shutdown can affect your data. Confirm the operation's effect and your recovery options first. If you cannot connect or a feature is unavailable, contact Gamehoster support.
 
-See [VirtFusion documentation](https://docs.virtfusion.com/).
+## Checking and starting the server
+
+1. Open [vps.gamehoster.fi](https://vps.gamehoster.fi/) and sign in with your VPS panel credentials.
+2. Select the correct VPS and check its status. The panel login and the Linux operating-system account are separate credentials.
+3. If it is stopped and you have permission to start it, use the start control available in the panel. Wait for startup before trying SSH.
+4. Find the VPS IP address in its details and use the SSH port and operating-system username configured for your installation. See [connecting with SSH](./ssh.md).
+
+Available controls and their names depend on your service. If the VPS or start control is missing, check the account and activation, then contact Gamehoster support if needed.
+
+## If SSH does not connect
+
+Check the server status, address, port and username. If a server console is available to your account, you can use it to inspect the operating system. Do not reinstall as a connection test: reinstallation can erase data. Follow [SSH troubleshooting](./ssh-troubleshooting.md).

@@ -12,4 +12,10 @@ Varmuuskopio suojaa esimerkiksi virheellisen päivityksen tai tiedoston poistami
 
 Varmuuskopiointi ja koko palvelimen palautus eivät välttämättä kata samoja asioita. Tarkista laajuus ennen ongelmatilannetta. Katso myös [palautuksen suunnittelu](./restore.md).
 
-Lisätietoa: [VirtFusionin varmuuskopiohallinta](https://docs.virtfusion.com/administration/backup-manager/). Ohje on tarkoitettu ylläpitäjälle, joten sen kuvaamat asetukset eivät välttämättä näy asiakaspaneelissa.
+## Kopio asiakkaan hallintapaneelista
+
+1. Kirjaudu [VPS-hallintaan](https://vps.gamehoster.fi/) ja valitse oikea palvelin.
+2. Tarkista, näkyykö palvelullesi varmuuskopiointitoiminto ja mitä tietoja se ilmoittaa kopioivansa. Toiminto, tallennuspaikat ja oikeudet riippuvat palvelustasi.
+3. Jos kopion luonti on käytettävissä, varmista tarvittava tila ja sovellusten tallennuksen eheys. Luo kopio paneelin tarjoamalla toiminnolla ja odota, että sen tila kertoo valmistumisesta.
+4. Kirjaa palautuspisteen ajankohta ja varmista erikseen tietokantojen sekä mahdollisen ulkoisen tallennustilan sisältö. Tarkista, voiko kopion säilyttää erillään palvelimesta.
+5. Jos toimintoa tai tietoa kopion sisällöstä ei näy, selvitä Gamehosterin tuelta palvelusi varmuuskopiointi. Älä oleta kopion valmistuneen pelkän luontipyynnön perusteella.

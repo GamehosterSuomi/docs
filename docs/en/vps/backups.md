@@ -12,4 +12,10 @@ Backups protect against problems such as failed updates or deleted files. Ask Ga
 
 Backups and full-server recovery do not necessarily cover the same data. Check their scope before an incident. See [planning a restore](./restore.md).
 
-Further reading: [VirtFusion backup manager](https://docs.virtfusion.com/administration/backup-manager/). This guide is for administrators, so the settings described may not appear in the customer panel.
+## Backing up through the customer panel
+
+1. Sign in to the [VPS panel](https://vps.gamehoster.fi/) and select the correct server.
+2. Check whether your service offers backups and what the panel says they include. Availability, storage and permissions depend on your service.
+3. If backup creation is available, check capacity and application consistency, create a backup using the available control, and wait until its status shows completion.
+4. Record the restore point and check separate databases and external storage. Check whether a copy can be kept outside the server.
+5. If the feature or scope is unclear, ask Gamehoster support. A creation request alone does not confirm a completed backup.

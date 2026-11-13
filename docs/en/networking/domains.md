@@ -1,33 +1,20 @@
-# Connecting a Domain
+# Connecting a domain to a game server
 
-You can use a custom domain to make your game server easier to remember.
+A domain can give players a memorable address. You need control of the domain's DNS records and the address and port assigned to your server. The record type depends on whether the provider gives you a hostname or an IP address.
 
-## Step 1: Find Your Server Address
+## Find your assigned address
 
-Locate your server's public IP address and connection port.
+Open the game panel and copy the connection address and port. `g1.gamehoster.fi:2000` is an example of the format; use your own values. Check that the game can connect to the assigned address before changing DNS.
 
-## Step 2: Open Your DNS Settings
+## Create a record
 
-Sign in to your domain registrar or DNS provider.
+1. Sign in to the DNS provider whose nameservers are active for your domain.
+2. Choose a subdomain, such as `play.example.com`. If Gamehoster supplies a hostname and confirms it is suitable as an alias target, create a **CNAME** for `play` pointing to that hostname. For a supplied IPv4 or IPv6 address use an **A** or **AAAA** record respectively.
+3. Enter the hostname or IP as the target, without `:port`. DNS providers may append the domain to the name automatically; check the full saved name.
+4. Allow DNS caches to update and connect using the game's address format. If your DNS provider offers proxying, confirm the proxy supports the game's protocol or use DNS-only mode.
 
-## Step 3: Create a DNS Record
+An A, AAAA or CNAME record does not carry a game port; players may still need to enter it. Minecraft Java Edition can use a separate [SRV record](./minecraft-srv.md) to advertise a port. Other games and editions may not use SRV records.
 
-For an IPv4 address, create an A record.
+## Troubleshooting
 
-Example:
-
-| Type | Name | Value      |
-| ---- | ---- | ---------- |
-| A    | play | 192.0.2.10 |
-
-Replace the example IP with your actual server IP.
-
-## Step 4: Connect
-
-If your game uses a non-default port, you may still need to specify the port when connecting.
-
-Minecraft Java Edition can use an SRV record to direct players to a custom port.
-
-::: info
-DNS changes may take time to propagate.
-:::
+If the assigned address works but the domain does not, check active nameservers, record name and target. Previously cached missing responses can take time to expire; see [checking DNS records](./dns-check.md). Contact Gamehoster if the appropriate DNS target is unclear.

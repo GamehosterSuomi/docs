@@ -8,7 +8,7 @@ SSH-yhteydellä hallitset Linux-palvelinta komentoriviltä. Tarvitset palvelimen
 2. Korvaa seuraavan esimerkin tiedot omillasi. Jos käytössä on oletusportti 22, `-p`-osan voi jättää pois.
 
    ```bash
-   ssh -p 22 kayttaja@192.0.2.10
+   ssh -p 22 kayttaja@vps.example.com
    ```
 
 3. Ensimmäisellä yhteyskerralla asiakas näyttää palvelimen avaimen sormenjäljen. Vertaile sitä luotettavasta lähteestä saamaasi sormenjälkeen ennen hyväksymistä. Jos tunnetun palvelimen sormenjälki muuttuu odottamatta, selvitä syy ennen jatkamista.

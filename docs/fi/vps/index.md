@@ -20,7 +20,18 @@ Korvaa esimerkki omilla tiedoillasi. Tarkista palvelimen tunniste ensimmäisell�
 
 VPS:n uudelleenasennus, palautus tai pakotettu sammutus voi vaikuttaa palvelimen tietoihin. Varmista toiminnon vaikutus ja varmuuskopion palautettavuus ennen sen suorittamista. Jos yhteys ei onnistu tai toiminto puuttuu, ota yhteyttä Gamehosterin tukeen.
 
-Lisätietoa: [VirtFusionin dokumentaatio](https://docs.virtfusion.com/).
+## Palvelimen tilan tarkistaminen ja käynnistäminen
+
+1. Avaa [vps.gamehoster.fi](https://vps.gamehoster.fi/) ja kirjaudu VPS-hallinnan tunnuksillasi.
+2. Valitse oikea VPS palvelinlistasta ja tarkista, onko se käynnissä. Hallintapaneelin kirjautuminen ja itse Linux-palvelimen käyttäjätunnus ovat eri asioita.
+3. Jos palvelin on pysäytetty ja tililläsi on oikeus käynnistää se, käytä paneelissa näkyvää käynnistystoimintoa. Odota, että käynnistys valmistuu, ennen kuin yrität SSH-yhteyttä.
+4. Etsi VPS:n tiedoista IP-osoite ja käytä asennuksessasi määriteltyä SSH-porttia sekä käyttöjärjestelmän käyttäjätunnusta. Katso [SSH-yhteyden ohje](./ssh.md).
+
+Paneelin käytettävissä olevat toiminnot ja niiden nimet riippuvat palvelustasi. Jos VPS ei näy tai käynnistystoiminto puuttuu, tarkista oikea tili ja palvelun aktivointi, ja ota tarvittaessa yhteyttä Gamehosterin tukeen.
+
+## Jos SSH-yhteys ei onnistu
+
+Tarkista palvelimen tila, osoite, portti ja käyttäjätunnus. Jos paneelissa on käytettävissä palvelimen konsoliyhteys ja sinulla on siihen oikeus, voit tarkistaa käyttöjärjestelmän tilaa sen kautta. Älä asenna palvelinta uudelleen yhteyden testaamiseksi: uudelleenasennus voi poistaa tiedot. Lisävaiheet ovat [SSH-vianmäärityksessä](./ssh-troubleshooting.md).
 
 ## Lisää oppaita
 
