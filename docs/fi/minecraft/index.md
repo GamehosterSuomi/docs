@@ -34,7 +34,16 @@ Opi määrittämään ja mukauttamaan Minecraft-palvelintasi.
 - [Uuden maailman siemen](./world-seed.md)
 - [Yksittäisen pelaajan tietojen palauttaminen](./player-data-restore.md)
 
+## Yhteys ja ongelmat
+
+- [Minecraft-palvelimeen ei voi yhdistää](../troubleshooting/connection-issues.md)
+- [Minecraft-palvelin kaatuu käynnistyksessä](../troubleshooting/minecraft-crash.md)
+- [Palvelin ilmoittaa olevansa täynnä](../troubleshooting/server-full.md)
+- [Minecraft Java Editionin SRV-tietue](../networking/minecraft-srv.md)
+- [Minecraft-työkalut](../tools/)
+
 ## Minecraftin palvelinohjelmistot
+
 
 Eri palvelinohjelmistot tukevat eri ominaisuuksia.
 

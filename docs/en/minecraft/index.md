@@ -34,7 +34,16 @@ Learn how to configure and customize your Minecraft server.
 - [Setting a new world seed](./world-seed.md)
 - [Restoring one player's data](./player-data-restore.md)
 
+## Connections and problems
+
+- [Cannot connect to a Minecraft server](../troubleshooting/connection-issues.md)
+- [Minecraft crashes during startup](../troubleshooting/minecraft-crash.md)
+- [Minecraft says the server is full](../troubleshooting/server-full.md)
+- [Minecraft Java Edition SRV record](../networking/minecraft-srv.md)
+- [Minecraft tools](../tools/)
+
 ## Minecraft Server Software
+
 
 Different server types support different features.
 

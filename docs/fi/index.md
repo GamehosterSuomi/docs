@@ -3,24 +3,27 @@ layout: home
 
 hero:
   name: Gamehoster Ohjeet
-  text: Pelipalvelimien käyttöohjeet
-  tagline: Kaikki tarvittava pelipalvelimesi hallintaan.
+  text: Ohjeet palveluidesi hallintaan
+  tagline: Löydä palvelullesi sopivat käyttö- ja vianmääritysohjeet.
   actions:
     - theme: brand
-      text: Aloita tästä
-      link: /fi/getting-started/
+      text: Pelipalvelimet
+      link: /fi/games/
     - theme: alt
       text: Minecraft-ohjeet
       link: /fi/minecraft/
 
 features:
-  - title: Aloittaminen
-    details: Opi ottamaan pelipalvelimesi käyttöön ja hallitsemaan sitä.
-    link: /fi/getting-started/
   - title: Minecraft
-    details: Lisäosat, modit ja palvelimen asetukset.
+    details: Käyttöönotto, maailmat, lisäosat, asetukset ja vianmääritys.
     link: /fi/minecraft/
-  - title: Vianmääritys
-    details: Ratkaisuja yleisiin palvelinongelmiin.
-    link: /fi/troubleshooting/
+  - title: Pelipalvelimet
+    details: Pelikohtaiset ohjeet ja pelipaneelin käyttö.
+    link: /fi/games/
+  - title: VPS
+    details: VPS-hallinta, SSH, varmuuskopiot ja ongelmien ratkaisut.
+    link: /fi/vps/
+  - title: Webhotelli
+    details: Verkkosivut, sähköposti, tietokannat ja varmenteet.
+    link: /fi/webhosting/
 ---
